@@ -1,0 +1,125 @@
+footer
+{
+  background-color: aqua;
+}
+
+section, aside, article, div
+{
+    padding: 0px;
+    margin: 0px;
+}
+
+header
+{
+    margin-top: 5px;
+}
+.row
+{
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+h2, h1
+{
+    padding-top: 0px;
+    margin: 0px;
+}
+
+.no-padding
+{
+    padding: 0px;
+}
+
+.btn-categoria
+{
+    margin-top: 20px;
+}
+
+.articulo
+{
+    background-color:aliceblue;
+    padding-bottom: 5px;
+    margin-bottom: 25px;
+}
+
+.espacio
+{
+    padding-bottom: 5px;
+    margin-bottom: 25px;
+}
+
+.img-perfil
+{
+    margin-top: -50px;
+    height: 120px;
+    width: 120px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header-aside
+{
+    margin-bottom: 10px;
+}
+
+.no-margin
+{
+    margin: 0px;
+}
+
+
+.texto-perfil
+{
+
+}
+
+
+
+.titulo-articulo 
+{
+    padding-top:  10px;
+    font-size: 25px;
+}
+
+.info-articulo
+{
+    font-size: 25px;
+}
+
+
+@media (min-width: 750px) 
+{ 
+    .info-articulo
+    {
+        font-size: 30px;
+    }
+
+}
+
+
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 970px) 
+{  
+    .row
+    {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    
+    .titulo-articulo 
+    {
+        font-size: 40px;
+    }
+    .info-articulo
+    {
+        font-size: 35px;
+    }
+
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1170px) 
+{  
+
+}

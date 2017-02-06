@@ -1,0 +1,81 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,400italic,100,300);
+body {
+    padding-bottom: 70px;
+    margin: 0;
+    padding: 0;
+}
+
+.category> div > h4 {
+    margin-top: -30px;
+    margin-bottom: 5px;
+}
+
+.product>article> header {
+    margin-top: -30px;
+    margin-bottom: 0px;
+}
+
+section>header {
+    margin-bottom: 0px;
+}
+
+aside>img {
+    margin-top: 30px;
+}
+
+.category> div> h3 {
+    margin-top: 0;
+}
+
+.separador {
+    font-size: 27px;
+}
+
+.title-review {
+    font-size: 20px;
+}
+
+.available {
+    color: green;
+}
+
+.available-row {
+    margin-top: 30px;
+}
+
+.marginCompleto {
+    margin: 30px;
+}
+
+.iconNosotros {
+    font-size: 36px;
+}
+
+.globo {
+    height: auto;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px #555;
+    background-color: #666;
+    position: relative;
+    color: #FFF;
+    padding: 10px;
+}
+
+.globo::before {
+    content: "";
+    width: 0;
+    position: absolute;
+    border-style: solid;
+    border-width: 10px 5px 0 5px;
+    border-color: #666 transparent;
+    bottom: -10px;
+    left: 50px;
+}
+
+.cajaGlobo, .cajaGlobo label{
+    padding: 20px;
+}
